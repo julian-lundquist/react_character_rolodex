@@ -1177,6 +1177,29 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@giphy/js-fetch-api@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-3.0.0.tgz#f384fbde7980dea79f23d7cf555ae94a8b63fd6b"
+  integrity sha512-9XVchO+D+31LVt2b1+SOVtTz7oEhpDUOAjqkwmGsVIKwhtswLntRoZBHwOhUKa4J9V3zzDCw+zedstqUAAg7Mw==
+  dependencies:
+    "@giphy/js-types" "^3.1.0"
+    "@giphy/js-util" "^2.3.0"
+    qs "^6.9.4"
+
+"@giphy/js-types@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-3.1.0.tgz#cfddcfeb7d389542fc2ffc147bbe122760cfa3b6"
+  integrity sha512-/gzA5Ny6tYVSXHndBzoIPx2t0Lu0UkbvCxb4g+KWEwQslWmak/2vZcO2X6jdIObHkN/8ejFIXr5Od40Namhtvw==
+
+"@giphy/js-util@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-2.3.0.tgz#4d8e3e6cdc9d479cf61b7a4553d43cf8fdff0fe9"
+  integrity sha512-Z6sPj+M3bgiNycvmP0rk0Afx5LAhVpdJ5oLeUNe8j1rSbaGo67et/pkGjZUy5mnYshtTWXm62+b7TYZ1WOd3Og==
+  dependencies:
+    "@giphy/js-types" "^3.1.0"
+    dompurify "^2.2.2"
+    uuid "^8.3.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -4118,6 +4141,11 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@^2.2.2:
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.8.tgz#ce88e395f6d00b6dc53f80d6b2a6fdf5446873c6"
+  integrity sha512-9H0UL59EkDLgY3dUFjLV6IEUaHm5qp3mxSqWw7Yyx4Zhk2Jn2cmLe+CNPP3xy13zl8Bqg+0NehQzkdMoVhGRww==
 
 domutils@^1.5.1, domutils@^1.7.0:
   version "1.7.0"
@@ -8827,6 +8855,13 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+
+qs@^6.9.4:
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
+  integrity sha512-M528Hph6wsSVOBiYUnGf+K/7w0hNshs/duGsNXPUCLH5XAqjEtiPGwNONLV0tBH8NoGb0mvD5JubnUTrujKDTg==
+  dependencies:
+    side-channel "^1.0.4"
 
 qs@~6.5.2:
   version "6.5.2"
