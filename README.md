@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a [React App](https://github.com/facebook/create-react-app) which displays a rolodex of characters w/ search functionality.
 
 ## Available Scripts
 
