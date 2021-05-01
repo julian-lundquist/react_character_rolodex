@@ -1,7 +1,9 @@
 import React from "react";
 import './App.css';
 
-import { CardList } from './components/card-list/card-list.component'
+import { SearchBox } from "./components/search-box/search-box.component";
+import { CardList } from './components/card-list/card-list.component';
+
 import {GiphyFetch} from "@giphy/js-fetch-api";
 
 class App extends React.Component {
@@ -9,7 +11,8 @@ class App extends React.Component {
         super(props);
 
         this.state = {
-            characters: []
+            characters: [],
+            searchField: ''
         }
     }
 
@@ -28,7 +31,7 @@ class App extends React.Component {
             },
             {
                 id: 'char3',
-                name: 'Spider Man',
+                name: 'Spiderman',
                 url: ''
             },
             {
@@ -90,17 +93,22 @@ class App extends React.Component {
                 characters: characters
             })
             console.log(this.state.characters)
-        };
+        }
 
         addGif();
     }
 
     render() {
+        const { characters, searchField } = this.state;
+        const filteredCharacters = characters.filter(character => {
+            return character.name.toLowerCase().includes(searchField.toLowerCase())
+        });
         return (
             <div className="App">
-                <header className="App-header">
-                    <CardList characters={this.state.characters} />
-                </header>
+                {/*<header className="App-header">*/}
+                {/*</header>*/}
+                <SearchBox placeholder={'search characters'} handleChange={e => this.setState({searchField: e.target.value})}/>
+                <CardList characters={filteredCharacters} />
             </div>
         );
     }
