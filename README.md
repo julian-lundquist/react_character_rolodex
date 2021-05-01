@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with React App
 
 This is a [React App](https://github.com/facebook/create-react-app) which displays a rolodex of characters w/ search functionality.
 
