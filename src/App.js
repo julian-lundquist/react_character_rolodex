@@ -43,16 +43,10 @@ class App extends React.Component {
         const gf = new GiphyFetch('OhyKGDrCTct0EKGl1NmagjvwwelQR6WG')
         this.state.characters.map(character => {
             return gf.search(character.name,{ sort: 'relevant', limit: 1 }).then((gifs) => {
-                this.setState({
-                    characters: [
-                        {
-                            id: character.id,
-                            name: character.name,
-                            url: gifs.data[0].url
-                        }
-                    ]
+                this.state.characters.map(character => {
+                    return character.url = gifs.data[0].url
                 })
-                console.log(gifs.data[0].url)
+                console.log(gifs.data[0].url);
             });
         });
     }
