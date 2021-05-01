@@ -28,7 +28,7 @@ class App extends React.Component {
             },
             {
                 id: 'char3',
-                name: 'Spiderman',
+                name: 'Spider Man',
                 url: ''
             },
             {
@@ -43,7 +43,37 @@ class App extends React.Component {
             },
             {
                 id: 'char6',
+                name: 'Thor',
+                url: ''
+            },
+            {
+                id: 'char7',
+                name: 'Iron Man',
+                url: ''
+            },
+            {
+                id: 'char8',
+                name: 'Deadpool',
+                url: ''
+            },
+            {
+                id: 'char9',
+                name: 'Hulk',
+                url: ''
+            },
+            {
+                id: 'char10',
                 name: 'Wolverine',
+                url: ''
+            },
+            {
+                id: 'char11',
+                name: 'Captain America',
+                url: ''
+            },
+            {
+                id: 'char12',
+                name: 'Thanos',
                 url: ''
             }
         ]
