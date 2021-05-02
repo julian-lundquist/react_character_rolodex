@@ -1,3 +1,11 @@
+h1 {
+  font-size: 4em;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
+  color: #95dada;
+  /*border: 1px solid olivedrab;*/
+}
+
 .App {
   text-align: center;
 }

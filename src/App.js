@@ -99,7 +99,7 @@ class App extends React.Component {
     }
 
     handleChange = (e) => {
-        this.setState({searchField: e.target.value})
+        this.setState({ searchField: e.target.value });
     }
 
     render() {
@@ -111,6 +111,7 @@ class App extends React.Component {
             <div className="App">
                 {/*<header className="App-header">*/}
                 {/*</header>*/}
+                <h1>Characters Rolodex</h1>
                 <SearchBox placeholder={'search characters'} handleChange={ this.handleChange } />
                 <CardList characters={filteredCharacters} />
             </div>
