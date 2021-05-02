@@ -98,6 +98,10 @@ class App extends React.Component {
         addGif();
     }
 
+    handleChange = (e) => {
+        this.setState({searchField: e.target.value})
+    }
+
     render() {
         const { characters, searchField } = this.state;
         const filteredCharacters = characters.filter(character => {
@@ -107,7 +111,7 @@ class App extends React.Component {
             <div className="App">
                 {/*<header className="App-header">*/}
                 {/*</header>*/}
-                <SearchBox placeholder={'search characters'} handleChange={e => this.setState({searchField: e.target.value})}/>
+                <SearchBox placeholder={'search characters'} handleChange={ this.handleChange } />
                 <CardList characters={filteredCharacters} />
             </div>
         );
