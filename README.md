@@ -1,6 +1,6 @@
 # Getting Started with React App
 
-This is a [React App](https://github.com/facebook/create-react-app) which displays a rolodex of characters w/ search functionality.
+This is a [React Rolodex App](https://julian-lundquist.github.io/react_character_rolodex) host on github pages which displays a rolodex of characters w/ search functionality.
 
 ## Available Scripts
 
