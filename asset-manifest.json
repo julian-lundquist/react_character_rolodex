@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_character_rolodex/static/css/main.7aafa8f4.chunk.css",
-    "main.js": "/react_character_rolodex/static/js/main.cdeb1923.chunk.js",
-    "main.js.map": "/react_character_rolodex/static/js/main.cdeb1923.chunk.js.map",
+    "main.css": "/react_character_rolodex/static/css/main.987bb151.chunk.css",
+    "main.js": "/react_character_rolodex/static/js/main.3df80550.chunk.js",
+    "main.js.map": "/react_character_rolodex/static/js/main.3df80550.chunk.js.map",
     "runtime-main.js": "/react_character_rolodex/static/js/runtime-main.efac3f73.js",
     "runtime-main.js.map": "/react_character_rolodex/static/js/runtime-main.efac3f73.js.map",
     "static/js/2.2d2d6197.chunk.js": "/react_character_rolodex/static/js/2.2d2d6197.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.95abf5a6.chunk.js": "/react_character_rolodex/static/js/3.95abf5a6.chunk.js",
     "static/js/3.95abf5a6.chunk.js.map": "/react_character_rolodex/static/js/3.95abf5a6.chunk.js.map",
     "index.html": "/react_character_rolodex/index.html",
-    "static/css/main.7aafa8f4.chunk.css.map": "/react_character_rolodex/static/css/main.7aafa8f4.chunk.css.map",
+    "static/css/main.987bb151.chunk.css.map": "/react_character_rolodex/static/css/main.987bb151.chunk.css.map",
     "static/js/2.2d2d6197.chunk.js.LICENSE.txt": "/react_character_rolodex/static/js/2.2d2d6197.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.efac3f73.js",
     "static/js/2.2d2d6197.chunk.js",
-    "static/css/main.7aafa8f4.chunk.css",
-    "static/js/main.cdeb1923.chunk.js"
+    "static/css/main.987bb151.chunk.css",
+    "static/js/main.3df80550.chunk.js"
   ]
 }
